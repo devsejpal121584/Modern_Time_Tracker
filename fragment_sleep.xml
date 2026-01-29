@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sleep Tracker"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnSleepStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="😴 Sleep Start"/>
+
+    <Button
+        android:id="@+id/btnWakeUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="☀️ Wake Up"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvSleepStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Not Sleeping"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sleep History"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"/>
+
+    <ListView
+        android:id="@+id/listSleepHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>
